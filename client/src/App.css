@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .App {
   text-align: center;
+  display: flex;
+  font-family: 'Poppins';
+  background-color: #2e2e36;
+  color: white;
+  position: absolute;
+  top: 0;bottom: 0;left: 0;right: 0;
 }
 
 .App-logo {
@@ -14,7 +21,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,11 +29,84 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.sidemenu{
+  width: 240px;
+  padding: 10px;
+  background-color: #1d2025;
+  
+}
+.chatbox{
+  flex: 1;
+  position: relative;
+}
+.chat-input-holder{
+  padding: 12px;
+  position: absolute;
+  bottom: 0;left: 0;right: 0;
+}
+.chat-input{
+  background-color: #40414f;
+  width: 90%;
+  border: 5px;
+  
+  padding: 12px;
+  font-size: 1.25em;
+  border-color: none;
+  margin: 12px;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0  0 8px 0 rgba(0,0,0,0.5);
+  
+}
+.side-menu-button{
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: left;
+}
+.side-menu-button:hover{
+  background-color: #49505e;
+  transition: 0.3s ease-in-out;
+}
+.side-menu-button span{
+  padding-left: 6px;
+  padding-right: 12px;
+}
 .App-link {
   color: #61dafb;
 }
+.chatlog{
+  padding: 24px;
+  text-align: left;
 
+}
+.chat-message{
+  
+  background-color: rgba(255,255,255,0.1);
+}
+.chat-message-center{
+  
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.avatar{
+  background: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+
+}
+.message{
+  
+  padding-left: 40px;
+  padding-right: 40px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

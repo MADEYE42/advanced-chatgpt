@@ -21,6 +21,16 @@ function App() {
           </div>  
           </div>
         </div>
+        <div className="chat-message chatgpt">
+          <div className="chat-message-center">
+          <div className="avatar">
+              <img src="https://blog.bismart.com/hs-fs/hubfs/Imported_Blog_Media/los-10-mejores-bots-disponibles-en-Internet-Sep-26-2023-08-53-22-8616-AM.jpg?width=5184&name=los-10-mejores-bots-disponibles-en-Internet-Sep-26-2023-08-53-22-8616-AM.jpg" alt="1" />
+          </div>
+          <div className="message">
+              Helo
+          </div>  
+          </div>
+        </div>
       </div>
           <div className="chat-input-holder">
             <textarea rows='1'className="chat-input" placeholder='Type your mesaage here'></textarea>

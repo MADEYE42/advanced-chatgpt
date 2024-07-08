@@ -80,27 +80,35 @@
   text-align: left;
 
 }
-.chat-message{
+.chat-message{  
   
-  background-color: rgba(255,255,255,0.1);
 }
+.chat-message.chatgpt{
+  background-color: rgba(255,255,255,0.1);
+  
+  border-radius: 15%;
+}
+
 .chat-message-center{
   
   padding: 12px;
   padding-left: 24px;
   padding-right: 24px;
   display: flex;
-  max-width: 480px;
+  max-width: 640px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
 }
 .avatar{
   background: white;
   height: 40px;
   width: 40px;
   border-radius: 50%;
-
+}
+.avatar img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 .message{
   
